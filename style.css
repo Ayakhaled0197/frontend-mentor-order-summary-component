@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg) ;
+    background-color: rgb(202 216 255 / 55%);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.box{
+    max-width: 400px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: #fff;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    overflow: hidden;
+}
+.img{
+    padding: 25% 20%;
+    background-image: url(images/illustration-hero.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.inner-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h2{
+    text-align: center;
+    padding-top: 2.1rem;
+    padding-bottom: 0.9rem;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+.content p{
+    padding:0 3rem;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+}
+.plan{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    margin: 25px 10px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.plan p{
+    padding-right: 20px;
+}
+.block{
+    padding-right: 60px;
+}
+.annual{
+    color:hsl(223, 47%, 23%);
+    font-weight: 700;
+
+}
+.year{
+    color:hsl(224, 23%, 55%);
+}
+.plan a{
+    color:hsl(245, 75%, 52%);
+}
+.pay{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.pay-success{
+    text-decoration: none;
+    color: #fff;
+    background-color: hsl(245, 75%, 52%);
+    padding:10px 100px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin-bottom: 25px;
+    box-shadow: 1px 8px 20px 0px hsl(245.71deg 100% 78.66% / 88%);
+}
+.pay-cancel{
+    text-decoration: none;
+    color: hsla(224, 23%, 55%, 0.849);
+    font-weight: 900;
+    font-size: 14px;
+}
+.pay-success:hover{
+    background-color:hsla(250, 99%, 58%, 0.81);
+}
+.plan a:hover{
+    color:hsla(250, 99%, 58%, 0.81);
+}
+.pay-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
